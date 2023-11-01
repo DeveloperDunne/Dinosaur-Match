@@ -33,13 +33,14 @@ body {
 
 .instructions {
   padding: 10px;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 550;
 }
 .btn {
   padding: 10px;
   color: #28b487;
   background-color: orange;
-  border: none;
+  border: 3px solid#28b487;
   font-family: "Handlee", sans-serif;
   font-size: 16px;
   border-radius: 8px;
@@ -49,6 +50,7 @@ body {
   justify-content: space-evenly;
   padding: 10px;
   font-size: 17px;
+  font-weight: 550;
 }
 .score {
   margin: 15px;

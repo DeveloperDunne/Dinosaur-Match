@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url("../images/dinobg.jpeg") no-repeat center center/cover;
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 8px solid orange;
+  border-radius: 5%;
+  margin: 10px;
+  display: grid;
+  place-self: center;
+  place-items: center;
+  background-color: #28b487;
+  height: 100vw;
+  width: 95vw;
+  opacity: 95%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Mountains of Christmas", "sans-serif";
+  color: #28b487;
+  text-decoration: underline orange 3px;
+}
+
+.instructions {
+  padding: 10px;
+  font-size: 15px;
+}
+.new-game-btn {
+  padding: 7px;
+  color: #28b487;
+  background-color: orange;
+  border: 2px solid #28b487;
+  font-family: "Handlee", sans-serif;
+}
+.score-boxes {
+  display: block;
+  font-size: 15px;
+}
+.score {
+  margin: 15px;
+}
+.highscore {
+  margin: 15px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+.card {
+  place-self: center;
+  display: grid;
+  place-items: center;
+  background-color: orange;
+  height: 62px;
+  width: 62px;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 55px;
+  max-height: 55px;
+  display: grid;
+  place-items: center;
+  opacity: ;
+}

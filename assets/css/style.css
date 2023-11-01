@@ -12,19 +12,19 @@ body {
 
 .container {
   box-sizing: border-box;
-  border: 8px solid orange;
+  border: 6px solid orange;
   border-radius: 5%;
-  margin: 10px;
+  margin: 30px;
   display: grid;
   place-self: center;
   place-items: center;
   background-color: #28b487;
   height: 100vw;
-  width: 95vw;
+  width: 80vw;
   opacity: 95%;
 }
 
-h1 {
+.gamename {
   text-align: center;
   font-family: "Mountains of Christmas", "sans-serif";
   color: #28b487;
@@ -33,25 +33,27 @@ h1 {
 
 .instructions {
   padding: 10px;
-  font-size: 15px;
+  font-size: 18px;
 }
 .btn {
-  padding: 7px;
+  padding: 10px;
   color: #28b487;
   background-color: orange;
-  border: 2px solid #28b487;
+  border: none;
   font-family: "Handlee", sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
 }
 .score-boxes {
-  display: block;
-  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 17px;
 }
 .score {
   margin: 15px;
 }
-.highscore {
-  margin: 15px;
-}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -79,5 +79,31 @@ body {
   max-height: 55px;
   display: grid;
   place-items: center;
-  opacity: ;
+  opacity: 0;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    height: 120vh;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .card {
+    height:65px;
+    width:65px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    height: 60vh;
+    width: 60vh;
+  }
+  .container  .instructions .score-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
 }
